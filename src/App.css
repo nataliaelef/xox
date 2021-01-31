@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.square {
+    height: 10em;
+    outline: none;
+    border: 4px solid #0d6efd;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.square>img {
+    height: 100%;
+    width: 100%;
+}
+
+#square_0,
+#square_1,
+#square_2 {
+    border-top: none;
+}
+
+#square_0,
+#square_3,
+#square_6 {
+    border-left: none;
+}
+
+#square_6,
+#square_7,
+#square_8 {
+    border-bottom: none;
+}
+
+#square_2,
+#square_5,
+#square_8 {
+    border-right: none;
+}
